@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   double nilai;
+
+   char indeks;
+
+   cout<<"masukkan nilai yang diperoleh : ";
+   cin>>nilai;
+
+   if (nilai >=85 ) {
+    indeks ='A';
+   }else if (nilai >=70){
+    indeks ='B';
+   }else if (nilai >=55){
+    indeks ='C';
+   }else if (nilai >=40){
+    indeks ='D';
+   }else if (nilai >=20){
+    indeks ='E';
+
+   cout<<"nilai indeks dari nilai "<<nilai<<"adalah"<<indeks;
+
+   return 0;
+}
+}
