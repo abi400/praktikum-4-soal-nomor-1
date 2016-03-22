@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{	
+	int nilai;
+	cin>>nilai;
+    cout<<"masukkan sebuah bilangan bulat : "; 
+	if (nilai > 0)
+	cout<<"nilai yang anda masukkan adalah bilangan positif";
+
+	else if(nilai < 0)
+	cout<<"nilai yang anda masukkan adalah bilangan negatif";
+
+	else if(nilai ==0 )
+	cout<<"nilai yang anda masukkan adalah bilangan 0";
+
+	return 0;
+}
